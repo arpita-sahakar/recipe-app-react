@@ -11,9 +11,9 @@ function DisplayRecipe({ recipes }) {
             <h3>Name : {recipe.recipe.label}</h3>
             <h3>calories : {recipe.recipe.calories}</h3>
             <h3>Ingredients : </h3>
-            <div>{recipe.recipe.ingredientLines.map((el, i)=>{
-                return <p key={i}>{el}</p>
-            })}</div>
+            <ul>{recipe.recipe.ingredientLines.map((el, i)=>{
+                return <li key={i}>{el}</li>
+            })}</ul>
           </div>
         );
       })}
