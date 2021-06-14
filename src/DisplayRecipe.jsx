@@ -6,7 +6,7 @@ function DisplayRecipe({ recipes }) {
       {recipes.map((recipe, i) => {
         console.log(recipe);
         return (
-          <div key={i}>
+          <div className="recipeLi" key={i}>
             <img src={recipe.recipe.image} alt=""/>
             <h3>Name : {recipe.recipe.label}</h3>
             <h3>calories : {recipe.recipe.calories}</h3>

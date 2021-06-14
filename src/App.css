@@ -18,3 +18,9 @@
 .title {
   font-style: italic;
 }
+
+/* .recipeLi {
+  display : flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+} */
